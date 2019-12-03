@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-filehandler.File",
+  "version": "1.0.0",
+  "description": "Cordova FileHandler Plugin for IOS",
+  "cordova": {
+    "id": "cordova-plugin-filehandler.File",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Muhammed Noufal",
+  "license": "ISC"
+}

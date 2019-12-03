@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-filehandler.File" version="1.0.0" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>FileHandler</name>
+    <description>Cordova FileHandler Plugin for IOS</description>
+    <js-module name="FileHandler" src="www/FileHandler.js">
+        <clobbers target="FileHandler" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="FileHandler">
+                <param name="ios-package" value="CDVFileHandler" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVFileHandler.h" />
+        <source-file src="src/ios/CDVFileHandler.m" />
+    </platform>
+</plugin>
